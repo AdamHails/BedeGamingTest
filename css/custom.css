@@ -1,0 +1,179 @@
+/* This is a custom CSS stylesheet */
+/* Global Styles */
+body,
+html {
+	height: 100%;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	max-width: 100%;
+}
+
+div {
+	-webkit-box-sizing: border-box;
+	/* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;
+	/* Firefox, other Gecko */
+	box-sizing: border-box;
+	/* Opera/IE 8+ */
+}
+
+.fullscreen {
+	height: 100%;
+	width: 100%;
+}
+
+.fullscreen-width {
+	width: 100%;
+}
+
+.outer {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.inner {
+	display: table-cell;
+	position: relative;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.container {
+	max-width: 940px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.centered {
+	text-align: center;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #444;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+th {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+	font-weight: 300;
+	text-align: center;
+	font-size: 1.4em;
+}
+
+#wrapper {
+	padding-top: 3em;
+	padding-bottom: 3em;
+	text-align: center;
+}
+
+#wrapper p {
+	padding-bottom: 2em;
+}
+/* Navigation Bar */
+.navbar-default {
+	height: 110px;
+	background-color: #fff;
+	border: none;
+	margin-bottom: 0;
+}
+
+.navbar-brand {
+	padding: 0;
+}
+
+.navbar .container {
+	height: 110px;
+}
+
+.navbar-nav a {
+	font-size: 13px;
+	color: #444 !important;
+}
+
+.navbar-right {
+	margin-top: 57px;
+}
+
+.navbar-default li {
+	border-bottom: 3px solid white;
+}
+
+.navbar-default li:hover {
+	border-bottom: 3px solid #db1018;
+}
+/* Splash and Banners */
+.banner,
+.splash {
+	background-image: url("../images/slider-background.jpg");
+	background-size: cover;
+}
+
+.splash h1 {
+	color: white;
+	margin: 5em auto;
+}
+
+.banner h1 {
+	color: white;
+	margin: 2.5em auto;
+}
+/* Home - Overview */
+#overview {
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.icon i {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	font-size: 3em;
+	padding-top: 1.25em;
+	padding-bottom: 1.5em;
+}
+
+a.link {
+	background-color: #db1018;
+	color: white;
+	padding: 8px 30px;
+	font-size: 14px;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.linkWrapper {
+	text-align: center;
+}
+
+a.link:hover {
+	text-decoration: none;
+	background-color: #232323;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+/* Market */
+th {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+th {
+	background-color: #db1018;
+	color: white;
+}
